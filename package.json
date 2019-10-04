@@ -48,7 +48,8 @@
     "sendmessage": "^1.1.0",
     "urllib": "^2.25.1",
     "utility": "^1.13.1",
-    "ylru": "^1.2.0"
+    "ylru": "^1.2.0",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "address": "^1.0.3",
@@ -98,7 +99,9 @@
     "doc-deploy": "doctools deploy",
     "autod": "autod",
     "puml": "puml . --dest ./docs",
-    "commits": "./scripts/commits.sh"
+    "commits": "./scripts/commits.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "homepage": "https://github.com/eggjs/egg",
   "repository": {
@@ -111,5 +114,6 @@
   "publishConfig": {
     "tag": "next"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
