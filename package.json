@@ -24,7 +24,7 @@
     "egg-cluster": "^1.12.4",
     "egg-cookies": "^2.2.1",
     "egg-core": "^4.0.0",
-    "egg-development": "^2.0.0",
+    "egg-development": "^3.0.0",
     "egg-i18n": "^2.0.0",
     "egg-jsonp": "^2.0.0",
     "egg-logger": "^1.6.0",
