@@ -46,7 +46,7 @@
     "koa-override": "^3.0.0",
     "mime-types": "^2.1.17",
     "sendmessage": "^1.1.0",
-    "urllib": "^2.25.1",
+    "urllib": "^3.0.0",
     "utility": "^1.13.1",
     "ylru": "^1.2.0"
   },
