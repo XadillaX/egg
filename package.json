@@ -32,7 +32,7 @@
     "egg-multipart": "^2.0.0",
     "egg-onerror": "^2.0.0",
     "egg-schedule": "^3.0.0",
-    "egg-security": "^2.0.0",
+    "egg-security": "^3.3.1",
     "egg-session": "^3.0.0",
     "egg-static": "^2.0.0",
     "egg-view": "^2.0.0",
